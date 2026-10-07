@@ -1,0 +1,42 @@
+{
+  "name": "fromshim",
+  "owner": {
+    "name": "fromshim",
+    "url": "https://github.com/fromshim"
+  },
+  "description": "fromshim 제품을 한곳에서 설치하는 Claude Code 플러그인 카탈로그",
+  "plugins": [
+    {
+      "name": "korean-tone",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/fromshim/korean-tone.git"
+      },
+      "displayName": "Korean Tone",
+      "description": "설치 직후부터 모든 한국어 답변을 자연스럽게 다듬는다. default·easy·mz 모드와 저장 문서를 검사하는 tone-linter 훅이 함께 설치된다.",
+      "author": {
+        "name": "seungboshim",
+        "url": "https://github.com/seungboshim"
+      },
+      "license": "MIT",
+      "category": "writing",
+      "tags": ["korean", "tone", "writing", "linter", "hook", "i18n", "localization"]
+    },
+    {
+      "name": "git-graph",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/fromshim/git-graph.git"
+      },
+      "displayName": "Git Graph",
+      "description": "Claude Code 터미널 옆 패널에 지금 저장소의 git 그래프를 실시간으로 그린다. 커밋 상세, 브랜치·태그·워크트리 칩, 가지 접기를 지원한다.",
+      "author": {
+        "name": "seungboshim",
+        "url": "https://github.com/seungboshim"
+      },
+      "license": "MIT",
+      "category": "developer-tools",
+      "tags": ["git", "graph", "mod", "pane", "worktree"]
+    }
+  ]
+}
